@@ -1,4 +1,4 @@
 [build]
   base = "mobile"
-  publish = "mobile/dist"
+  publish = "dist"
   command = "expo export -p web"
