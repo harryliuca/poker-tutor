@@ -2,3 +2,12 @@
   base = "mobile"
   publish = "dist"
   command = "expo export -p web"
+
+[build.environment]
+  EXPO_PUBLIC_SUPABASE_URL = "https://irzvisggotlcglldfbzk.supabase.co"
+  EXPO_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlyenZpc2dnb3RsY2dsbGRmYnprIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkyMDMyNDQsImV4cCI6MjA3NDc3OTI0NH0.NXbtkhlwbdPbqCISx0qaNViLDQlmp44p2qK9MAwcUoY"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
